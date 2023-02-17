@@ -66,7 +66,8 @@ function Vp() {
         <div className="row justify-content-center">
           <div className="col-md-6">
             <p>Please sign in to join the chat</p>
-            <Link to="/Home"> clicke here</Link>
+            <Link to="/">      <button type="button" className="flex mr-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
+</button></Link>
           </div>
         </div>
       </div>

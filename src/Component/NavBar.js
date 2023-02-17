@@ -1,10 +1,6 @@
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Home from "./Home";
-import About from "../Pages/About";
+import { BrowserRouter as Link } from "react-router-dom";
 
-import ErrorPage from "../Pages/ErrorPage";
-import SlidesA from "../Pages/Slides";
 import DisplayImage from "./profile-pic";
 
 

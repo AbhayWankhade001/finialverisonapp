@@ -1,4 +1,3 @@
-import { BsFillShieldLockFill, BsTelephoneFill } from "react-icons/bs";
 import { CgSpinner } from "react-icons/cg";
 import "./App.css";
 import OtpInput from "otp-input-react";
@@ -70,16 +69,16 @@ const App = () => {
       });
   }
 
-  function getUsers() {
-    firebase
-      .database()
-      .ref("users")
-      .on("value", (snapshot) => {
-        const users = snapshot.val();
-        const currentUser = users[ph];
-        setCurrentUser(currentUser);
-      });
-  }
+  // function getUsers() {
+  //   firebase
+  //     .database()
+  //     .ref("users")
+  //     .on("value", (snapshot) => {
+  //       const users = snapshot.val();
+  //       const currentUser = users[ph];
+  //       setCurrentUser(currentUser);
+  //     });
+  // }
 
   function onOTPVerify() {
     setLoading(true);
@@ -127,7 +126,9 @@ const App = () => {
                 You have successfully logged in!
               </h2>
             </div>
-            <Link to="/About"><button>kszgjsvh</button></Link>
+            <Link to="/About"><button type="submit" className="btn btn-primary">
+              Chat Now
+            </button></Link>
             <button
               className="btn btn-secondary btn-lg"
 

@@ -8,8 +8,8 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import { Router, Link } from "react-router-dom";
-import ReactDOM from "react-dom";
+import {  Link } from "react-router-dom";
+
 
 
 export default () => {
@@ -41,7 +41,7 @@ export default () => {
 
         >
           <SwiperSlide>
-            <img src="./Frame.png" alt="" />
+            <img src="./Frame.png" alt="a" />
             <div className={`slider-slide-text swiper-slide ${activeIndex === 0 ? "active" : ""}`} role="group">
               Be Kind to you !
             </div>
@@ -50,7 +50,7 @@ export default () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <img src="./Frame 2372.png" className="img2372" alt="" />
+            <img src="./Frame 2372.png" className="img2372" alt="a" />
             <div className={`slider-slide-text swiper-slide ${activeIndex === 1 ? "active" : ""}`} role="group">
               Be Kind to you !
             </div>
@@ -59,7 +59,7 @@ export default () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <img src="./Frame.png" alt="" />
+            <img src="./Frame.png" alt="a" />
             <div className={`slider-slide-text swiper-slide ${activeIndex === 2 ? "active" : ""}`} role="group">
               Be Kind to you !
             </div>

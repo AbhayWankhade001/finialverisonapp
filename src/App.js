@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Component/slider";
 import About from "./Pages/About";
 import ErrorPage from "./Pages/ErrorPage";
@@ -8,8 +8,7 @@ import ImageSelector from "./Component/ImageSelector";
 import SlidesA from "./Pages/Slides";
 import MainoPage from "./Pages/MainoPage";
 import OtpVerification from "./Component/OtpVerification";
-import NavBar from "./Component/NavBar";
-import picSele from "./Pages/OtpSec"
+
 function App() {
   
  
