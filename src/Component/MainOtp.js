@@ -1,3 +1,4 @@
+import {  BsTelephoneFill } from "react-icons/bs";
 import { CgSpinner } from "react-icons/cg";
 import "./App.css";
 import OtpInput from "otp-input-react";
